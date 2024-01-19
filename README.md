@@ -1,1 +1,1 @@
-<a href="https://vinicius-delfin.github.io/spin-test/index.html">Archint</a>
+<a href="https://vinicius-delfin.github.io/spin-tech/">Archint</a>
