@@ -12,7 +12,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.image {
+#image-static {
     background-image: url(images/image001.jpg);
     height: 20vh;
     background-position: center;
@@ -103,6 +103,7 @@ input[type=checkbox] {
 
 .form-end a {
     opacity: 0.9;
+    color: var(--secondary);
 }
 
 .submit {
@@ -114,7 +115,7 @@ input[type=checkbox] {
 }
 
 .submit button {
-    width: 170px;
+    width: 160px;
     height: 60px;
     border: 1px solid #3e334e;
     border-radius: 7px;
