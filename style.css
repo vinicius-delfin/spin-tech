@@ -149,7 +149,7 @@ input[type=checkbox] {
     border-radius: 3px;
     padding: 5px;
     font-size: 15px;
-    width: 110px;
+    width: 100px;
     height: 40px;
     color: var(--secondary);
 }
