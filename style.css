@@ -19,12 +19,17 @@
     background-size: cover;
 }
 
-.content {
+.container {
     background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
     height: 100vh;
     color: var(--secondary);
-    padding: 17px;
-
+    padding: 30px;
 }
 
 .title {
@@ -33,15 +38,25 @@
 }
 
 img {
-    width: 27px;
+    width: 35px;
     opacity: 0.75;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
 #paragraph1 {
-    margin-top: 15px;
-    font-size: 13px;
-    line-height: 20px;
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 25px;
     margin-bottom: 30px;
+    max-width: 381px;
 }
 
 .form {
@@ -50,8 +65,8 @@ img {
 }
 
 .form label {
-    font-size: 10px;
-    margin: 15px 0 5px 0;
+    font-size: 18px;
+    margin: 20px 0 8px 0;
     font-weight: 800;
 }
 
@@ -60,15 +75,16 @@ img {
     border: 1px solid #afa2c3;
     border-radius: 7px;
     color: var(--secondary);
-    max-width: 357px;
+    max-width: 381px;
+    height: 45px;
 }
 
 .form-end {
     display: flex;
     justify-content: space-between;
-    max-width: 357px;
+    max-width: 381px;
     margin-top: 8px;
-    font-size: 12px;
+    font-size: 17px;
     color: var(--secondary);
 }
 
@@ -92,18 +108,19 @@ input[type=checkbox] {
 .submit {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    max-width: 357px;
+    margin-top: 50px;
+    max-width: 381px;
 
 }
 
 .submit button {
-    width: 100px;
-    height: 35px;
+    width: 170px;
+    height: 60px;
     border: 1px solid #3e334e;
     border-radius: 7px;
     background-color: var(--primary);
     color: var(--secondary);
+    font-size: 18px;
 }
 
 #login {
@@ -112,17 +129,17 @@ input[type=checkbox] {
 }
 
 #final {
-    margin-top: 17px;
+    margin-top: 50px;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     max-width: 357px;
 }
 
 .alternative {
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
     justify-content: space-between;
-    max-width: 357px;
+    max-width: 381px;
 
 }
 
@@ -130,8 +147,9 @@ input[type=checkbox] {
     border: 1px solid rgba(62,51,78, 0.5);
     border-radius: 3px;
     padding: 5px;
-    font-size: 10px;
-    width: 60px;
+    font-size: 15px;
+    width: 110px;
+    height: 40px;
     color: var(--secondary);
 }
 
